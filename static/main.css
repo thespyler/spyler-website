@@ -1,0 +1,56 @@
+body{
+	background-color: #111;
+	font-family: sans-serif;
+	font-style: normal;
+	font-weight: bolder;
+	font-size: 1.6em;
+	padding: 5px 5px 5px 5px;
+	/*background-color: rgb(10, 10, 10);*/
+}
+.head{
+	font-family: Courier;
+	font-style: auto;
+	background-color: #f44;
+	color: black;
+	width: 90%;
+	margin: auto;
+	border: 5px black solid;
+}
+.head h1{
+	font-family: serif;
+	line-height: auto;
+
+}
+
+.tutorial{
+	font-family: Arial;
+	background-color: #f33;
+	border: black 5px solid;
+	width: 90%;
+	margin: auto;
+	line-height: 2em;
+}
+
+.signin{
+	border: 5px black solid;
+	background-color: #f44;
+}
+
+.suggestions{
+	background-color: #f44;
+	border: black 5px solid;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

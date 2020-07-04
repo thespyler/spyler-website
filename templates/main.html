@@ -1,0 +1,35 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title><ul>SpylerProgrammer</title>
+</head>
+<body>
+	{% block content %}
+		<link rel="stylesheet" type="text/css" href="{%static 'main.css' %}">
+	<div class="head">
+		<h1>Spyler Programmer</h1>
+		Learn Programming Totally for free that too in Hindi!!! <br><br>
+		</div>
+		<br><br>
+	<div class="tutorial">
+	    <ul>	<a href="c/">C Tutorials <br></a>
+		<a href="django/">Django Tutorials<br></a>
+		<a href="flask/">Flask Tutorials<br></a>
+		<a href="matplotlib/">Matplotlib Tutorials<br></a></ul>
+	</div>
+
+	<br><br>
+
+	<div class="signin">
+		not a user ? it's free here !
+		<a href="signin ">sign in </a>
+	</div><br>
+
+	<div class="suggestions">
+		Want to <a href="">give any suggestions ?</a> I admire every single bit of your valuable advice !!!
+	</div>
+	{% endblock %}
+</body>
+</html>
